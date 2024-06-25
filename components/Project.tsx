@@ -21,7 +21,7 @@ const images = [
 
 export function Project() {
   return (
-    <Carousel className="w-[80vw] overflow-hidden md:w-full max-w-2xl">
+    <Carousel className="w-[80vw] overflow-hidden md:overflow-visible md:w-full max-w-2xl">
       <CarouselContent className="-ml-1">
         {images.map((image, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
